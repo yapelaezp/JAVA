@@ -30,7 +30,9 @@ public class Serie extends ProduccionAudiovisual {
 	
     @Override
     public String toString() {
-    	return "Clase Serie";
+    	String informacion;
+    	informacion = this.getTitulo() + ", " + "N° de temporadas " + this.no_temporadas;
+    	return informacion;
     }
 	
 	

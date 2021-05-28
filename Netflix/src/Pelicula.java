@@ -30,7 +30,9 @@ public class Pelicula extends ProduccionAudiovisual {
 	
    @Override
    	public String toString() {
-   		return "Clase Película";
+   		String informacion;
+   		informacion = this.getTitulo() + ", " + "Año: "+ this.año;
+   		return informacion;
    	}	
 	
 }

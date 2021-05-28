@@ -85,9 +85,9 @@ public class ProduccionAudiovisual implements Visualizable {
 			// tiempo visto de alguna serie o película
 			aux = Math.floor(Math.random()* (this.duracion + 1)); 
 			min = (int)aux;
-			aux = Math.floor(Math.random()* (this.duracion + 1));
+			aux = Math.floor(Math.random()* (59 + 1));
 			seg = (int) aux;
-			tiempo = min + ":" + seg;
+			tiempo = min + "/" + seg;
 			return tiempo;
 		}
 		else {
